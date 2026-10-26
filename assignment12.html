@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Accessible Images Showcase with Alt Attributes and Figures – Vyom Sharma">
+  <title>Accessible Images Showcase – Vyom Sharma</title>
+</head>
+
+<body>
+  <header>
+    <h1>Accessible Images &amp; Figures Showcase</h1>
+    <p>Created by Vyom Sharma · BCA (Artificial Intelligence), Invertis University</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. Student Profile Image</h2>
+      <!-- Meaningful alt text describing the person and context -->
+      <img src="assets/assignment-10-12.png" width="200"
+           alt="Portrait of student Vyom Sharma smiling outdoors in front of college campus">
+      <p>Profile photo formatted with explicit width and height dimensions to prevent Cumulative Layout Shift (CLS).</p>
+    </section>
+
+    <section>
+      <h2>2. Project Figures with Captions</h2>
+      <!-- Semantic figure with figcaption -->
+      <figure>
+        <img src="https://picsum.photos/id/0/480/280" width="480" height="280"
+             alt="Laptop computer open on a wooden desk displaying source code in an editor">
+        <figcaption>Figure 1: Front-end development environment configured in VS Code.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://picsum.photos/id/60/480/280" width="480" height="280"
+             alt="Close-up of a desktop workstation with code, coffee cup and notebook">
+        <figcaption>Figure 2: Daily coding lab sessions for Java and web assignments.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>3. Decorative Background Banner</h2>
+      <!-- Decorative image: empty alt attribute ensures screen readers ignore it -->
+      <img src="https://picsum.photos/id/1015/700/120" width="700" height="120" alt="">
+      <p><em>(The banner above is decorative, so it has an empty alt="" attribute for screen reader accessibility.)</em></p>
+    </section>
+
+    <section>
+      <h2>4. Linked Icon Images (Profiles)</h2>
+      <!-- Linked images describe destinations and actions -->
+      <p>
+        <a href="https://github.com/Vyom2421?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <img src="https://picsum.photos/id/1062/80/80" width="80" height="80" alt="Visit Vyom Sharma's GitHub repositories tab (opens in new tab)">
+        </a>
+        <a href="https://www.linkedin.com/in/vyom-sharma-16a178315" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;">
+          <img src="https://picsum.photos/id/1068/80/80" width="80" height="80" alt="Visit Vyom Sharma's LinkedIn profile (opens in new tab)">
+        </a>
+        <a href="https://leetcode.com/u/Vyom2421/" target="_blank" rel="noopener noreferrer" style="margin-left: 1rem;">
+          <img src="https://picsum.photos/id/1070/80/80" width="80" height="80" alt="Visit Vyom Sharma's LeetCode problem solving profile (opens in new tab)">
+        </a>
+      </p>
+      <p>Click the badges above to inspect my GitHub Repositories, LinkedIn Profile, and LeetCode Coding Profile.</p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <!-- Accessibility Checklist -->
+    <h3>Image Accessibility Rules Followed:</h3>
+    <ul>
+      <li>✔ Informative images have descriptive, non-redundant alt text.</li>
+      <li>✔ Alt text avoids unnecessary phrases like "image of" or "photo of".</li>
+      <li>✔ Decorative images use <code>alt=""</code>.</li>
+      <li>✔ Linked images explain the link destination.</li>
+    </ul>
+    <p><small>&copy; 2026 Vyom Sharma</small></p>
+  </footer>
+</body>
+
+</html>

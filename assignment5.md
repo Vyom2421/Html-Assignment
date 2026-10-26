@@ -1,2 +1,2 @@
 <h2> Share the pushed Github repository link as proof of setup </h2>
-<a href="c:\Users\VI\Desktop\html-css-practice\style.css c:\Users\VI\Desktop\html-css-practice\index.html c:\Users\VI\Desktop\html-css-practice\README.md"> Respository </a>
+<a href="https://github.com/Vyom2421/Html-Assignment"> Respository </a>
